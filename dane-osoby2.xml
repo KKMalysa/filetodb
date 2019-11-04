@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons>
+    <person>
+        <name>Jan</name>
+        <surname>Kowalski</surname>
+        <age>12</age>
+        <city>Lublin</city>
+        <contacts>
+			<contact type="phone">123123123</contact>
+			<contact type="phone">654 765 765</contact>
+			<contact type="email">kowalski@gmail.com</contact>
+			<contact type="email">123123123</contact>
+        </contacts>
+    </person>
+    <person>
+        <name>Adam</name>
+        <surname>Nowak</surname>
+        <city>Lublin</city>
+        <contacts>
+			<contact type="phone">123123123</contact>
+			<contact type="email">adam@gmail.com</contact>
+			<contact type="icq">123456</contact>
+			<contact type="jabber">jbr:123123123</contact>
+        </contacts>
+    </person>
+</persons>
