@@ -22,12 +22,12 @@ public class CustomerRepo {
 
     public static List<PersonalData> customersList = new ArrayList<>();
 
-//    @Transactional
-    public static void createCustomers(){
+    @Transactional
+    public void createCustomers(){
 
         for(int i=0; i<records.size(); i++){
-            customersList.add(new PersonalData(records.get(i).get(0), records.get(i).get(1), parseInt(0+records.get(i).get(2)), records.get(i).get(3)));
-//            em.persist(new PersonalData(records.get(i).get(0), records.get(i).get(1), parseInt(0+records.get(i).get(2)), records.get(i).get(3)));
+//            customersList.add(new PersonalData(records.get(i).get(0), records.get(i).get(1), parseInt(0+records.get(i).get(2)), records.get(i).get(3)));
+            em.persist(new PersonalData(records.get(i).get(0), records.get(i).get(1), parseInt(0+records.get(i).get(2)), records.get(i).get(3)));
 
          }
 
